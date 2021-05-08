@@ -21,7 +21,7 @@ Output something like:  **Running on http://127.0.0.1:7777/ (Press CTRL+C to qui
 ```
 
 
-- Using python command
+- Using python command follow syntax: *python client.py <endpoint> <post_data>*
 ```
-python client.py
+python client.py append '{"poolId": 123456, "poolValues": [11,21,31,45]}'
 ```
