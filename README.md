@@ -4,6 +4,7 @@
 - pip 21.x.x
 ### Installation
 ```
+git clone -b master https://github.com/ngunq/tcb_homework.git
 cd tcb_homework
 ```
 - Install dependencies
