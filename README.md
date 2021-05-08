@@ -38,7 +38,7 @@ Output something like:  **Running on http://127.0.0.1:7777/ (Press CTRL+C to qui
  ```
  
  ```
- curl -s -X POST http://127.0.0.1:7777/query  -H 'Content-Type: application/json' -H 'Accept: application/json' -d '{"poolId": 123456, "percentile": 50}'
+ curl -X POST http://127.0.0.1:7777/query  -H 'Content-Type: application/json' -H 'Accept: application/json' -d '{"poolId": 123456, "percentile": 50}'
  ```
   **Output:**
   ```json
