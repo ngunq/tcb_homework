@@ -57,9 +57,7 @@ def query():
         s_index = get_shard_index(pool_id, shard_num)
 
         if pool_id not in shard_data[s_index]:
-            return response({
-                "message": "poolId not found!"
-            })
+            return response("poolId not found!")
 
         pool_count = len(shard_data[s_index][pool_id])
         x_quantile = quantile(shard_data[s_index][pool_id], percentile)
