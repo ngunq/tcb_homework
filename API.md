@@ -37,7 +37,7 @@ Insert new values into a pool, if poolId exists, append values
 }
 ```
 
-## Query a pool
+# Query a pool
 
 Query a pool values by poolId then return pool's value count and a quantile (in percentile form)
 
